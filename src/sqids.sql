@@ -18,6 +18,7 @@ drop function IF EXISTS sqids._ToNumBase;
 drop procedure IF EXISTS sqids.init;
 drop procedure IF EXISTS sqids.RunTests;
 drop procedure IF EXISTS sqids.RunMinLengthTests;
+drop procedure IF EXISTS sqids.RunEncodingTests;
 drop table IF EXISTS sqids.Config;
 drop schema sqids;
 drop schema IF EXISTS sqids;
